@@ -1,0 +1,53 @@
+@media (min-width: 641px) and (max-width: 1199px) {
+	.header {
+		background-image: url(../images/banner-bg-tablet.jpg);
+	}
+
+	.maincontainer {
+		justify-content: space-around;
+		gap: 50px;
+	}
+
+	.trendcard {
+	flex-basis: calc(50% - 5px);
+	}
+
+	.card {
+		flex-direction: column;
+		box-sizing: border-box;
+		width:auto;
+		height: auto;
+		gap: 20px;
+	}
+
+	.card > img {
+		width: 100%;
+	}
+
+	.card > .post {
+		margin-left: 0;
+	}
+
+	.goodscontainer {
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	/* gap: 50px; */
+	padding: 0 15px 0 15px;
+	}
+
+	.goodcard {
+		flex-grow: 1;
+		flex-basis: 200px;
+		width: 100%;
+		max-width: calc(50vw - 80px);
+		justify-content: center;
+	}
+	.goodspicontainer {
+		width: calc(100% - 20px);
+		padding:  0 10px 0 10px;
+	}
+	.goodspic {
+		width: calc(100%);
+		
+	}
+}
