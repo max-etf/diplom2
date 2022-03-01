@@ -30,7 +30,7 @@
 
 	.goodscontainer {
 	flex-wrap: wrap;
-	justify-content: flex-start;
+	justify-content: space-between;
 	/* gap: 50px; */
 	padding: 0 15px 0 15px;
 	}
@@ -38,8 +38,9 @@
 	.goodcard {
 		flex-grow: 1;
 		flex-basis: 200px;
-		width: 100%;
-		max-width: calc(50vw - 80px);
+		/* width: 100%; */
+		min-width: calc(50vw - 80px);
+		max-width: calc(50vw - 60px);
 		justify-content: center;
 	}
 	.goodspicontainer {
